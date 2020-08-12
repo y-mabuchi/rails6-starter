@@ -11,7 +11,7 @@ I refered to [【Rails6】Docker+Rails6+puma+nginx+mysql【環境構築＊初心
 
 ## Clone repository
 ```bash
-git clone ...
+git clone git@github.com:y-mabuchi/rails6-starter.git
 ```
 
 ## Create rails files
