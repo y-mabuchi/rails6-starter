@@ -20,7 +20,7 @@ cd rails6-starter
 docker-compose run --rm app rails new . --force --database=mysql --skip-bundle
 ```
 
-## Edit puma.rb
+## Edit puma.rb(/config/puma.rb)
 ```puma.rb
 threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }.to_i
 threads threads_count, threads_count
@@ -34,7 +34,7 @@ bind "unix://#{app_root}/tmp/sockets/puma.sock"
 stdout_redirect "#{app_root}/log/puma.stdout.log", "#{app_root}/log/puma.stderr.log", true
 ```
 
-## Edit database.yml
+## Edit database.yml(/config/database.yml)
 ```database.yml
 default: &default
   adapter: mysql2
@@ -73,6 +73,7 @@ docker-compose exec app rails webpacker:install
 docker-compose exec db bash
 mysql -u root -p
 GRANT ALL ON *.* TO 'user'@'%';
+exit;
 ```
 
 ## Create DB
