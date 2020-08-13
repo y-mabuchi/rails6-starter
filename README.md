@@ -75,6 +75,11 @@ mysql -u root -p
 GRANT ALL ON *.* TO 'user'@'%';
 ```
 
+## Create DB
+```
+docker-compose exec app rails db:create
+```
+
 ## Check your browser
 [http://localhost](http://localhost)
 
