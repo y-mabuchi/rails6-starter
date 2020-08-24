@@ -84,6 +84,11 @@ docker-compose exec app rails db:create
 ## Check your browser
 [http://localhost](http://localhost)
 
+## Update remote repository
+```
+git remote set-url origin {YOUR-NEW-REPOSITORY-URL}
+```
+
 # Author
 
 * Yusuke Mabuchi
