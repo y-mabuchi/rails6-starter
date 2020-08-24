@@ -20,7 +20,6 @@ require:
 domains: []
 reporters:
   - rubocop
-  - require_not_found
 require_paths: []
 plugins: []
 max_files: 5000
