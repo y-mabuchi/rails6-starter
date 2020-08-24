@@ -20,5 +20,5 @@ Style/FrozenStringLiteralComment:
 Style/StringLiterals:
   Enabled: false
 
-Style/LineLength:
+Layout/LineLength:
   Enabled: false
