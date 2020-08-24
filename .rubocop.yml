@@ -1,4 +1,27 @@
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - bin/*
+    - db/schema.rb
+    - db/migrate/*
+    - vendor/**/*
+    - config/**/*
+    - lib/tasks/*
+    - Gemfile
+    - features/**/*
+    - spec/**/*
+
+Rails:
+  Enabled: true
+
+LineLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
-Style/Documentation:
+
+Style/StringLiterals:
   Enabled: false
