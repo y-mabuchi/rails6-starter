@@ -11,9 +11,6 @@ AllCops:
     - features/**/*
     - spec/**/*
 
-Rails:
-  Enabled: true
-
 LineLength:
   Enabled: false
 
